@@ -31,8 +31,8 @@ const aumentarCalificacion = () => {
     if (validateNumber(grade.innerHTML)){
         grade.innerHTML = Number(grade.innerHTML) + 1;
     } else {
-        alert("La calificacion no es un numero entero")
-    }
+        alert("La calificacion no es un numero entero");
+    };
 };
 
 // Función para disminuir la calificación
@@ -40,8 +40,8 @@ const disminuirCalificacion = () => {
     if (validateNumber(grade.innerHTML)){
         grade.innerHTML = Number(grade.innerHTML) - 1;
     } else {
-        alert("La calificacion no es un numero entero")
-    }
+        alert("La calificacion no es un numero entero");
+    };
 };
 
 // funcion para validar sin una variable es un numero entero
