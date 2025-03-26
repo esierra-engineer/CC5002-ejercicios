@@ -11,7 +11,7 @@ Explique por que el realizar validaciones del input del usuario en el front-end 
 
 **Respuesta:**
 
-El principio de defensa en profundidad dice que la entrada validarse en varias capas de la aplicación web, no se debe confiar en un único punto de validación, sino aplicar la validación en diferentes etapas, como del lado del cliente, del lado del servidor y de la base de datos. La validación del lado del cliente puede mejorar la experiencia del usuario, pero no puede garantizar la seguridad. Por lo tanto, debe usarse con la validación del lado del servidor para garantizar la seguridad, ya que esta puede rechazar entradas maliciosas o no válidas que omiten la validación del lado del cliente.
+El principio de defensa en profundidad dice que la entrada debe validarse en varias capas de la aplicación web, no se debe confiar en un único punto de validación, sino aplicar la validación en diferentes etapas, como del lado del cliente, del lado del servidor y de la base de datos. La validación del lado del cliente puede mejorar la experiencia del usuario, pero no puede garantizar la seguridad. Por lo tanto, debe usarse con la validación del lado del servidor para garantizar la seguridad, ya que esta puede rechazar entradas maliciosas o no válidas que omiten la validación del lado del cliente.
 
 # 1.2 (3 puntos)
 Explique en detalle el rol de **HTML, CSS y JavaScript** en la creación del front-end de una aplicación web. Especifique la función de cada tecnología y cómo se combinan para construir una interfaz interactiva y visualmente atractiva.
@@ -31,7 +31,7 @@ Estas tres tecnologías se combinan en la web moderna para construir interfaces 
 A continuación, se presentan dos tareas prácticas:  
 
 1. **(3 puntos)** Implementar un código que reciba un nombre ingresado por el usuario y muestre un mensaje de bienvenida.  
-   - Si el usuario se llama **[Tu Nombre]**, debe mostrarse un mensaje especial en negrita y en color azul.  
+   - Si el usuario se llama **Erick Sierra Baeza**, debe mostrarse un mensaje especial en negrita y en color azul.  
    - El contenido debe actualizarse sin recargar la página.  
 
 2. **(3 puntos)** Implementar un contador de calificación con dos botones para aumentar y disminuir la nota actual.  
