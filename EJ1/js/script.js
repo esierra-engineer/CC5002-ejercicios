@@ -1,3 +1,4 @@
+const USERNAME = "Erick";
 // Obtener elementos para el mensaje de bienvenida
 let pMessage = document.getElementById("mensaje");
 let buttonSend = document.getElementById("btn-enviar");
@@ -16,7 +17,7 @@ const mostrarMensaje = () => {
     // validar nombre no vacio
     if (input_name.length < 1) {
         alert("Debe ingresar un nombre");
-    } else {
+    } else if(input_name == USERNAME){
     // variable del mensaje
     const message = `Hello, ${input_name}, how are you?`;
     
@@ -44,7 +45,7 @@ const disminuirCalificacion = () => {
     };
 };
 
-// funcion para validar sin una variable es un numero entero
+// funcion para validar si una variable es un numero entero
 const validateNumber = (value) =>  {
     return Number.isInteger(Number(value));
 };
